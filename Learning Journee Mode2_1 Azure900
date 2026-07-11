@@ -1,0 +1,31 @@
+Az-900 Module 2 _1 Az VM... key Takeaways
+
+Azure Virtual Machines (VMs) can be used for several purposes, including application hosting, development and testing, datacenter extension, disaster recovery, and lift-and-shift migrations from on-premises environments to Azure.
+
+When deploying a virtual machine, it is important to choose the appropriate resources based on the workload. These include:
+- vCPUs
+- RAM
+- Storage type and size (HDD or SSD)
+- Virtual Network configuration
+- Premium SSD support
+- Hardware generation
+
+Azure VM names also provide useful information about their configuration.
+
+For example:
+
+Standard_F5s_v5
+
+F → Compute-optimized VM family
+
+5 → Number of virtual CPUs (vCPUs)
+
+s → Supports Premium SSD managed disks
+
+v5 → Fifth hardware generation
+
+Each VM family is designed for a specific type of workload.
+For example, the F-series is optimized for compute-intensive applications, while the E-series is optimized for memory-intensive workloads.
+
+Finally, Azure Virtual Machines can be organized inside Resource Groups (RGs),
+making them easier to manage throughout their lifecycle. Resource Groups also simplify access management through Azure Role-Based Access Control (RBAC) and help organize related Azure resources
